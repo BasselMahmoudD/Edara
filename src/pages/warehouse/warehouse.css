@@ -1,0 +1,168 @@
+.Warehouse{
+    flex: 5;
+    padding: 20px;
+}
+
+.WarehouseTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button{
+    margin-right: 10px;
+}
+.WarehouseAddButton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    margin-right: 15px;
+    
+}
+
+.WarehouseListButton{
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px; 
+}
+
+.warehouseContainer{
+    display: flex;
+    margin-top: 20px;
+}
+
+.warehouseShow{
+    flex: 1.5;
+    padding: 20px;
+    box-shadow: 0px 1px 0px 3px         rgb(210, 226, 231)      inset;
+    -webkit-box-shadow: 0px 1px 0px 3px rgb(210, 226, 231)      inset;
+    -moz-box-shadow: 0px 1px 0px 3px    rgb(210, 226, 231)      inset;
+   
+
+}
+
+.warehouseUpdate{
+    flex: 2;
+    padding: 20px;
+    box-shadow: 0px 1px 0px 3px         rgb(210, 226, 231)      inset;
+    -webkit-box-shadow: 0px 1px 0px 3px rgb(210, 226, 231)      inset;
+    -moz-box-shadow: 0px 1px 0px 3px    rgb(210, 226, 231)      inset;
+    margin-left: 20px;
+}
+
+.warehouseShowTop{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.warehouseShowTopTitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+}
+
+.warehouseShowUsername{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.warehouseShowButton{
+    margin-top: 20px;
+}
+
+
+.warehouseShowTitle{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(175, 170, 170);
+    
+}
+
+.warehouseShowInfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+}
+
+.warehouseShowIcon{
+    font-size: 16px !important; 
+}
+
+.warehouseShowInfoTitle{
+    margin-left: 10px;
+
+}
+
+.warehouseUpdateTitle{
+ font-size: 24px;
+ font-weight: 700;
+
+}
+
+.warehouseUpdateForm{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.warehouseUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.warehouseUpdateItem>label{
+    font-size: 15px;
+}
+
+.warehouseUpdateInput{
+ border: none;
+ width: 250px;
+ height: 10px;
+ border-bottom: 1px solid gray;
+
+}
+
+.warehouseUpdateRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.warehouseUpdateUpload{
+    display: flex;
+    align-items: center;
+}
+    
+
+.warehouseUpdateButton{
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(36, 102, 110);
+    color: white;
+    font-weight: 600;
+    margin-top: 240px;
+}
+.warehouseUpdateItem>input{
+    height: 20px;
+    padding: 10px;
+    border: 3px solid  rgb(172, 220, 234) ;
+    border-radius: 5px;
+ }

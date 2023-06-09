@@ -1,0 +1,55 @@
+.WarehouseList{
+    flex: 5;
+    margin-left: 10px;
+}
+.warehouseItem{
+    display: flex;
+    align-items: center;
+}
+
+.warehouseContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.warehouseTitle{
+    margin-left: 10px;
+}
+.warehouseAddButton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+
+.warehouseImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+
+}
+
+.warehouseEdit {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.warehouseDelete {
+    color: red;
+    cursor: pointer;
+}
+.whList{
+    height: 600px;
+}

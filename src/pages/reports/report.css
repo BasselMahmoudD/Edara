@@ -1,0 +1,16 @@
+.report{
+    flex: 5;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+.reportList{
+    display: flex;
+    align-items: center;
+}
+
+.repoList{
+    height: 600px;
+}
+.ProductTitle{
+    margin-bottom: 10px;
+}
